@@ -97,10 +97,11 @@ class BenchmarkProblem:
     def evaluate(self, X: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
         """
         Evaluates the objective and constraint functions.
+        Enforces X to be casted to float
 
         Returns (values, constraints) or (values, equality constraints, inequality constraints) for problems with equality constraints
         """
-        output = self._evaluate_implementation(X)
+        output = self._evaluate_implementation(X.clone().to(torch.float))
         if len(output) == 2:
             return output[1], output[0]  # values, constraints
         # len(output) is 3 for CEC2020 functions

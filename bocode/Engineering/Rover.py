@@ -21,7 +21,7 @@ class Rover(BenchmarkProblem):
 
     def __init__(self, dim=100):
         super().__init__(
-            dim, num_objectives=1, num_constraints=0, bounds=[(0, 1)] * 100
+            dim, num_objectives=1, num_constraints=0, bounds=[(0, 1)] * dim
         )
 
     def _evaluate_implementation(self, X, scaling=False):
