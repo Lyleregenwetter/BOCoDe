@@ -79,6 +79,7 @@ where = ["."]
 include = ["bocode*"]
 
 [tool.setuptools_scm]
+local_scheme = "no-local-version"
 
 [project.urls]
 Homepage = "https://github.com/rosenyu304/BOCoDe/"
