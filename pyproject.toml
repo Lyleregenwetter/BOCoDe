@@ -32,6 +32,7 @@ dependencies = [
     "gpy >= 1.13.0",
     "onnxruntime>=1.22.0",
     "modact",
+    "pandas",
 ]
 readme = "README.md"
 requires-python = ">=3.10"
