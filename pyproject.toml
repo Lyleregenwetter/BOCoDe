@@ -31,6 +31,7 @@ dependencies = [
     "scipy",
     "gpy >= 1.13.0",
     "onnxruntime>=1.22.0",
+    "modact",
 ]
 readme = "README.md"
 requires-python = ">=3.10"
@@ -51,11 +52,6 @@ viz = [
     "matplotlib",
 ]
 
-full = [
-    "LassoBench @ git+https://github.com/ksehic/LassoBench.git",
-    "modact @ git+https://github.com/epfl-lamd/modact.git",
-]
-
 [dependency-groups]
 doc = [
     "sphinx>=7.0.0,<8.0.0",
@@ -69,6 +65,10 @@ test = [
 ]
 
 dev = [{include-group = "test"}, {include-group = "doc"}]
+
+full = [
+    "LassoBench @ git+https://github.com/ksehic/LassoBench.git",
+]
 
 [tool.setuptools]
 include-package-data = true
