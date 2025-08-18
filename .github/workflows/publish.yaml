@@ -17,26 +17,6 @@ jobs:
           python-version: "3.x"
       - name: Install build tools
         run: python -m pip install --upgrade pip build toml
-      - name: Remove non-PyPI dependencies for publishing
-        run: |
-          python -c "
-          import toml
-          
-          pyproject_path = 'pyproject.toml'
-          
-          with open(pyproject_path, 'r') as f:
-              data = toml.load(f)
-          
-          # Remove the 'full' optional dependency group
-          if 'project' in data and 'optional-dependencies' in data['project']:
-              if 'full' in data['project']['optional-dependencies']:
-                  del data['project']['optional-dependencies']['full']
-                  print('Removed [project.optional-dependencies.full]')
-          
-          with open(pyproject_path, 'w') as f:
-              toml.dump(data, f)
-          "
-          
       - name: Build wheels and a source tarball
         run: python -m build
       - name: Store the distribution packages
