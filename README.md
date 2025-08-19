@@ -42,6 +42,10 @@ cd BOCoDe
 pip install -e .[full]
 ```
 
+# [Documentation](https://bocode.readthedocs.io/en/latest/)
+
+Documentation for BOCoDe is available at [Read the Docs](https://bocode.readthedocs.io/en/latest/).
+
 # Optimization Problem Definition
 Here we define all our problems for **maximization** optimization algorithms (for minimization, negate the evaluated value). We define constraints to be **inequality constraints** (i.e. constraint values (gx) <= 0 as feasible).
 
