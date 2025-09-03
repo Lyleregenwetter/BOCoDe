@@ -10,7 +10,7 @@ Our goal is to provide not only a Python optimization benchmark library but also
 > As it was originally designed for Bayesian Optimization algorithms, the output objective values are meant to be **_maximized_**.
 > If you are using minimization algorithms, please negate the output objective value for your use.
 
-# What is in BOCoDe?
+# 💡 What is in BOCoDe?
 
 ## Engineering Design Problems
 We present a diverse collection of engineering design problems including car design, cantilever beam, truss structure optimization, and physics simulation of robotics problems. 
@@ -26,7 +26,7 @@ We present a diverse collection of engineering design problems including car des
 
 Other open-source libraries and benchmarks: [MODAct](https://github.com/epfl-lamd/modact), [Lassobench](https://github.com/ksehic/LassoBench), [BayesianCHT](https://github.com/TsaiYK/BayesianCHT), [DTLZ](https://www.research-collection.ethz.ch/handle/20.500.11850/145762), [WFG](https://ieeexplore.ieee.org/document/1705400), [ZDT](https://pubmed.ncbi.nlm.nih.gov/10843520/)
 
-# Installation
+# 💻 Installation
 
 You can install the core library from PyPI:
 
@@ -42,16 +42,16 @@ cd BOCoDe
 pip install -e .[full]
 ```
 
-# [Documentation](https://bocode.readthedocs.io/en/latest/)
+# 📒 [Documentation](https://bocode.readthedocs.io/en/latest/)
 
 Documentation for BOCoDe is available at [Read the Docs](https://bocode.readthedocs.io/en/latest/).
 
-# Optimization Problem Definition
+# ✍️ Optimization Problem Definition
 Here we define all our problems for **maximization** optimization algorithms (for minimization, negate the evaluated value). We define constraints to be **inequality constraints** (i.e. constraint values (gx) <= 0 as feasible).
 
 <center><img src="docs/Figures/opt_definition.png" width="300"></center>
 
-# Example Usage
+# 🔍 Example Usage
 
 For details of each problem's usage, please read our docs. Here we provide examples to common usage of this library:
 
@@ -139,7 +139,7 @@ problem = bocode.Synthetics.Powell()
 problem.visualize_function()
 ```
 
-# Development
+# 🛠️ Development
 
 BOCoDe is an open source project and we welcome contributions! If you want to add a new problem, please reach out to us first to see if it is a good fit for BOCoDe.
 
