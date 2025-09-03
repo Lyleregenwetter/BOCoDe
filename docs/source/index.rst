@@ -26,7 +26,7 @@ Citing
 --------
 
 1. If you use BOCoDe in your research, please cite the following paper:
-.. code-block:: bibtex
+.. code-block:: python
    @misc{yu2025bocode,
        author={Rosen Ting-Ying Yu, Advaith Narayanan, Cyril Picard, Faez Ahmed},
        title = {{BOCoDe}: Benchmarks for Optimization and Computational Design},
