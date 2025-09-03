@@ -10,6 +10,9 @@ Our goal is to provide not only a Python optimization benchmark library but also
 > As it was originally designed for Bayesian Optimization algorithms, the output objective values are meant to be **_maximized_**.
 > If you are using minimization algorithms, please negate the output objective value for your use.
 
+> [!NOTE]
+> The library is still under construction. Please open a pull request or an issue to let us know if you run into problems. Thanks!
+
 # 💡 What is in BOCoDe?
 
 ## Engineering Design Problems
@@ -145,7 +148,7 @@ BOCoDe is an open source project and we welcome contributions! If you want to ad
 
 # Citing
 
-1. If you use BOCoDe in your research, please cite the following paper:
+1. If you use BOCoDe in your research, please cite the following paper (full report coming soon):
 ```bibtex
 @misc{yu2025bocode,
     author={Rosen Ting-Ying Yu, Advaith Narayanan, Cyril Picard, Faez Ahmed},
