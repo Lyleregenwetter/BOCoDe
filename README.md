@@ -1,5 +1,11 @@
 # BOCoDe: Benchmarks for Optimization and Computational Design
 
+[![Python](https://img.shields.io/pypi/pyversions/bocode.svg)](https://badge.fury.io/py/bocode)
+![tests](https://github.com/rosenyu304/bocode/workflows/Python%20Tests/badge.svg)
+[![code style: Ruff](
+    https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](
+    https://github.com/astral-sh/ruff)
+
 We present BOCoDe, a Python and PyTorch-based library that contains the most comprehensive suite of engineering design optimization problems and an interface to popular synthetic optimization problems, with access to 300+ problems for optimization algorithm benchmarking. 
 
 Our goal is to provide not only a Python optimization benchmark library but also to allow the PyTorch interface for facilitating machine learning optimization algorithms and applications such as surrogate and Bayesian optimization.

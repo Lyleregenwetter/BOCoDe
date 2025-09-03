@@ -1,4 +1,4 @@
-name: Benchmark Testing
+name: Python Tests
 
 on: [ push, pull_request ]
 

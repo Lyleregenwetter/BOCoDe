@@ -26,12 +26,12 @@ extensions = [
     "sphinx.ext.napoleon",  # For NumPy and Google style docstrings
     "sphinx.ext.viewcode",  # For source code links
     "sphinx_copybutton",
-    'sphinxcontrib.bibtex',
+    "sphinxcontrib.bibtex",
 ]
 
 templates_path = ["_templates"]
 exclude_patterns = []
-bibtex_bibfiles = ['refs.bib']
+bibtex_bibfiles = ["refs.bib"]
 
 
 # -- Options for HTML output -------------------------------------------------
