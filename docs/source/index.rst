@@ -29,13 +29,13 @@ Citing
 
    @misc{yu2025bocode,
    
-       author={Rosen Ting-Ying Yu, Advaith Narayanan, Cyril Picard, Faez Ahmed},
+   author={Rosen Ting-Ying Yu, Advaith Narayanan, Cyril Picard, Faez Ahmed},
    
-       title = {{BOCoDe}: Benchmarks for Optimization and Computational Design},
+   title = {{BOCoDe}: Benchmarks for Optimization and Computational Design},
    
-       year={2025},
+   year={2025},
    
-       url={https://github.com/rosenyu304/BOCoDe}
+   url={https://github.com/rosenyu304/BOCoDe}
    }
 
 
